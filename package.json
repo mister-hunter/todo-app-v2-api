@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "start http://localhost:3010 && nodemon --ignore './data' ./src/server.ts",
+    "env":"cp .env.example .env",
+    "dev": "start http://localhost:3010 && nodemon ./src/server.ts",
+    "start": "start http://localhost:3010 && node ./src/server.ts",
     "format": "prettier --write ./src"
   },
   "repository": {
