@@ -1,5 +1,5 @@
 {
-  "name": "api-server-starter",
+  "name": "todo-app-v2-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bpk68/api-server-starter.git"
+    "url": "git+https://github.com/mister-hunter/todo-app-v2-api.git"
   },
   "dependencies": {
     "@types/node": "^14.11.5",
